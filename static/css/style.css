@@ -1,0 +1,56 @@
+#header {
+    padding-top: 17rem;
+    padding-bottom: 17rem;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('media/3-nature-wallpaper-mountain.1366.jpg');
+    background-color: rgba(35, 42, 110, 0.507);
+    background-blend-mode: lighten;
+}
+
+#about, #resume, #projects, #contacts {
+    scroll-margin-top: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* a:link {
+    text-decoration: none; 
+}
+
+a:visited {
+    text-decoration: none;
+} */
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+} 
+
+.navbar-fixed-top.scrolled {
+    background-color: #222222 !important;
+    transition: background-color 200ms linear;
+}
+
+.my-text-size {
+    font-size: 1.5em;
+}
+
+.my-less-weight {
+    font-weight: 200;
+}
+
+.my-bigger {
+    font-size: 3rem;
+}
+
+.my-spacing {
+    letter-spacing: 0.3em;
+}
