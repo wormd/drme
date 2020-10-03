@@ -6,8 +6,8 @@
     background-position: center center;
     background-size: cover;
     background-image: url('/media/3-nature-wallpaper-mountain.1366.jpg');
-    background-color: rgba(18, 23, 61, 0.76);
-    background-blend-mode: lighten;
+    background-color: rgba(57, 54, 68, 0.76);
+    background-blend-mode: multiply;
 }
 
 #about, #resume, #projects, #contacts {
