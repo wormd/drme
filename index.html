@@ -37,10 +37,13 @@
         <div class="mt-5 pt-3"></div>
         <section id="about" class="container mt-5">
             <h1 class="text-center">About</h1>
-            <div class="mt-3 d-flex row ">
-                <img class="col-5" src="media/me.png" style="max-width: 400px; max-height: 400px;">
-                <p class="col-7 my-text-size align-self-center">
-                The quick brown fox jumps over a lazy dog is the most famous pangram in English, that is the most short sentence in which all the 26 letters of the alphabet are used. For this reason, it is useful to test the graphic aspect of the fonts, because all the letters are immediately on hand.
+            <div class="mt-3 d-flex row">
+                <img class="col-lg-5 mx-auto d-block mb-md-3" src="media/me.png" style="max-width: 400px; max-height: 400px;">
+                <p class="col-lg-7 my-text-size text-justify align-self-center">
+                I studied CS at university but didn't finish the degree. After that I worked 5 years for a company in my hometown in a back office position managing employees,
+                 client communications and financial aspects (bookkeping etc.) answering directly to the CEO and the COO.<br><br>
+                  I decided to improve my boring and routinely life and left my stable position to go back into programming -- my passion --
+                   to challenge myself once again and do what I really enjoy for a living.
                 </p>
             </div>
         </section>
@@ -51,19 +54,19 @@
             <div class="row mt-4">
                 <h4 class="col-6 align-self-center font-italic"> You can download my full resume here: </h4>
                 <div class="col-3 text-center">
-                    <a class="mb-5 mb-lg-0" href="/media/cv/v2.pdf">
+                    <a class="mb-5 mb-lg-0" href="/media/cv/v3.pdf">
                         <i class="fas fa-file fa-w-8 fa-3x mb-3 text-muted"></i>
                         <div>English version</div>
                     </a>
                 </div>
                 <div class="col-3 text-center">
-                    <a class="text-center mb-5 mb-lg-0" href="/media/cv/v2.pdf">
+                    <a class="text-center mb-5 mb-lg-0" href="/media/cv/Europass-ita.pdf">
                         <i class="far fa-file fa-w-8 fa-3x mb-3 text-muted"></i>
                         <div>Italian version</div>
                     </a>
                 </div>
             </div>
-            <div class="mt-5">
+            <!-- <div class="mt-5">
                 <h4 class="mb-3">Skills</h4>
                 <div>
                     <button type="button" class="btn btn-dark">Java</button>
@@ -74,45 +77,90 @@
                     <button type="button" class="btn btn-dark">React</button>
                     <button type="button" class="btn btn-dark">Python</button>
                 </div>
-            </div>
+            </div> -->
         </section>
         <!-- /RESUME -->
         <!-- PROJECTS -->
         <section id="projects" class="container mt-5">
-            <h1 class="text-center mb-5">Projects</h1>
-            <div class="row mb-4">
-                <div class="col-lg-6 order-lg-0">
-                    <h3 class="text-center" ><a class="d-inline text-secondary">Byk</a></h3>
-                    <p class="my-text-size align-self-center">
-                        The quick brown fox jumps over a lazy dog is the most famous pangram in English, that is the most short sentence in which all the 26 letters of the alphabet are used. For this reason, it is useful to test the graphic aspect of the fonts, because all the letters are immediately on hand.
-                    </p>
+            <h1 class="text-center mb-lg-5 mb-md-3">Projects</h1>
+            <div class="row mb-lg-4 mb-md-5">
+                <div class="col-lg-6 order-lg-0 d-flex flex-column">
+                    <div class="mt-auto mb-auto">
+                        <h3 class="text-center text-secondary">
+                            Byk
+                            <a class="ml-2 text-secondary" style="font-size:0.7rem;" href="https://daviderizzo.me/byk/">demo</a>
+                            <a class="ml-2 text-secondary" style="font-size:0.7rem;" href="https://daviderizzo.me/byk/">source</a>
+                        </h3>
+                        <p class="my-text-size text-justify">
+                            Web application to manage/administrate a small business financial status, employees, clients, 
+                            supplies. Backend is developed with Spring boot with a MySQL. Frontend is developed with
+                            Angular with Bootstrap to style it.
+                        </p>
+                        <div class="mb-md-2">
+                            <button type="button" class="btn btn-dark mb-1">Java</button>
+                            <button type="button" class="btn btn-dark mb-1">Spring</button>
+                            <button type="button" class="btn btn-dark mb-1">Typescript</button>
+                            <button type="button" class="btn btn-dark mb-1">Javascript</button>
+                        </div>
+                    </div>
                 </div>
                 <img class="col-lg-6 order-lg-1" src="media/projects/reminders.png">
             </div>
-            <div class="row mb-4">
-                <div class="col-lg-6  order-lg-1">
-                    <h3 class="text-center" ><a class="d-inline text-secondary">Genera Corsi</a></h3>
-                    <p class="my-text-size align-self-center">
-                        The quick brown fox jumps over a lazy dog is the most famous pangram in English, that is the most short sentence in which all the 26 letters of the alphabet are used. For this reason, it is useful to test the graphic aspect of the fonts, because all the letters are immediately on hand.
-                    </p>
+            <div class="row mb-lg-4 mb-md-5">
+                <div class="col-lg-6 order-lg-1 d-flex flex-column">
+                    <div class="mt-auto mb-auto">
+                        <h3 class="text-center text-secondary">Genera Corsi</h3>
+                        <p class="my-text-size text-justify">
+                            Generate docxs and fills them based on xlsx tables provided. Rules to fill templates are easily
+                            customizable providing different python modules.
+                        </p>
+                        <div class="mb-md-2">
+                            <button type="button" class="btn btn-dark mb-1">Python</button>
+                            <button type="button" class="btn btn-dark mb-1">WxPython</button>
+                        </div>
+                    </div>
                 </div>
                 <img class="col-lg-6  order-lg-0" src="media/projects/generacorsi.png">
             </div>
-            <div class="row mb-4">
-                <div class="col-lg-6  order-lg-0">
-                    <h3 class="text-center" ><a class="d-inline text-secondary">Krak</a></h3>
-                    <p class="my-text-size align-self-center">
-                        The quick brown fox jumps over a lazy dog is the most famous pangram in English, that is the most short sentence in which all the 26 letters of the alphabet are used. For this reason, it is useful to test the graphic aspect of the fonts, because all the letters are immediately on hand.
-                    </p>
+            <div class="row mb-lg-4 mb-md-5">
+                <div class="col-lg-6 order-lg-0 d-flex flex-column">
+                    <div class="mt-auto mb-auto">
+                        <h3 class="text-center text-secondary">
+                            Krak
+                            <a class="ml-2 text-secondary" style="font-size:0.7rem;" href="http://github.com/wormd/krak">source</a>
+                        </h3>
+                        <p class="my-text-size text-justify">
+                            Personal implementation of both the Kraken API and WS and their usage to fetch data and
+                            apply financial algorithm to check their efficency.
+                        </p>
+                        <div class="mb-md-2">
+                            <button type="button" class="btn btn-dark mb-1">Python</button>
+                            <button type="button" class="btn btn-dark mb-1">HTTP API</button>
+                            <button type="button" class="btn btn-dark mb-1">Websocket</button>
+                            <button type="button" class="btn btn-dark mb-1">Bitcoin</button>
+                            <button type="button" class="btn btn-dark mb-1">Cryptocurrency</button>
+                            <button type="button" class="btn btn-dark mb-1">Pandas</button>
+                            <button type="button" class="btn btn-dark mb-1">Matplotlib</button>
+                        </div>
+                    </div>
                 </div>
-                <img class="col-lg-6  order-lg-1" src="media/projects/krak.png">
+                <img class="col-lg-6 order-lg-1" src="media/projects/krak.png">
             </div>
-            <div class="row mb-4">
-                <div class="col-lg-6  order-lg-1">
-                    <h3 class="text-center" ><a class="d-inline text-secondary">Byk</a></h3>
-                    <p class="my-text-size align-self-center">
-                        The quick brown fox jumps over a lazy dog is the most famous pangram in English, that is the most short sentence in which all the 26 letters of the alphabet are used. For this reason, it is useful to test the graphic aspect of the fonts, because all the letters are immediately on hand.
-                    </p>
+            <div class="row mb-lg-4 mb-md-5">
+                <div class="col-lg-6 order-lg-1 d-flex flex-column">
+                    <div class="mt-auto mb-auto">
+                        <h3 class="text-center text-secondary">Incident</h3>
+                        <p class="my-text-size text-justify">
+                            Incident reporter website for companies to monitor their infrastructure and provide an interface to appropiate report incident occurred.
+                        </p>
+                        <div class="mb-md-2">
+                            <button type="button" class="btn btn-dark mb-1">React</button>
+                            <button type="button" class="btn btn-dark mb-1">Javascript</button>
+                            <button type="button" class="btn btn-dark mb-1">react-thunk</button>
+                            <button type="button" class="btn btn-dark mb-1">gRPC</button>
+                            <button type="button" class="btn btn-dark mb-1">Protobuf</button>
+                        </div>
+                    </div>
                 </div>
                 <img class="col-lg-6  order-lg-0" src="media/projects/incidentrepo.png">
             </div>
@@ -146,7 +194,7 @@
         <!-- FOOTER -->
     <footer>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg d-flex justify-content-center text-white pt-3 pb-1" style="font-size: 1.1rem">
-            <p class="">Copyright? <span class="font-italic"> Davide Rizzo</span></p>
+            <p class="">Copyright <span class="font-italic"> Davide Rizzo</span></p>
         </nav>
     </footer>
         <!-- /FOOTER -->
